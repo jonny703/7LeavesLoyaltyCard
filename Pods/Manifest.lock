@@ -1,0 +1,155 @@
+PODS:
+  - Alamofire (4.4.0)
+  - BEMCheckBox (1.4.0)
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - DatePickerDialog (1.1.7)
+  - Device.swift (0.5)
+  - DZNEmptyDataSet (1.8.1)
+  - Fabric (1.6.11)
+  - FBSDKCoreKit (4.19.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.19.0):
+    - FBSDKCoreKit
+  - Firebase/Auth (3.14.0):
+    - Firebase/Core
+    - FirebaseAuth (= 3.1.1)
+  - Firebase/Core (3.14.0):
+    - FirebaseAnalytics (= 3.7.0)
+    - FirebaseCore (= 3.5.1)
+  - Firebase/Database (3.14.0):
+    - Firebase/Core
+    - FirebaseDatabase (= 3.1.2)
+  - Firebase/DynamicLinks (3.14.0):
+    - Firebase/Core
+    - FirebaseDynamicLinks (= 1.3.3)
+  - Firebase/RemoteConfig (3.14.0):
+    - Firebase/Core
+    - FirebaseRemoteConfig (= 1.3.4)
+  - Firebase/Storage (3.14.0):
+    - Firebase/Core
+    - FirebaseStorage (= 1.1.0)
+  - FirebaseAnalytics (3.7.0):
+    - FirebaseCore (~> 3.5)
+    - FirebaseInstanceID (~> 1.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseAuth (3.1.1):
+    - FirebaseAnalytics (~> 3.7)
+    - GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseCore (3.5.1):
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseDatabase (3.1.2):
+    - FirebaseAnalytics (~> 3.7)
+  - FirebaseDynamicLinks (1.3.3):
+    - FirebaseAnalytics (~> 3.7)
+  - FirebaseInstanceID (1.0.9)
+  - FirebaseRemoteConfig (1.3.4):
+    - FirebaseAnalytics (~> 3.7)
+    - FirebaseInstanceID (~> 1.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - Protobuf (~> 3.1)
+  - FirebaseStorage (1.1.0):
+    - FirebaseAnalytics (~> 3.7)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleSignIn (4.0.2):
+    - GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)
+    - GoogleToolboxForMac/NSString+URLArguments (~> 2.1)
+    - GTMOAuth2 (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GoogleToolboxForMac/Defines (2.1.1)
+  - GoogleToolboxForMac/NSData+zlib (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GoogleToolboxForMac/NSDictionary+URLArguments (2.1.1):
+    - GoogleToolboxForMac/DebugUtils (= 2.1.1)
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+    - GoogleToolboxForMac/NSString+URLArguments (= 2.1.1)
+  - GoogleToolboxForMac/NSString+URLArguments (2.1.1)
+  - GTMOAuth2 (1.1.4):
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.1.8):
+    - GTMSessionFetcher/Full (= 1.1.8)
+  - GTMSessionFetcher/Core (1.1.8)
+  - GTMSessionFetcher/Full (1.1.8):
+    - GTMSessionFetcher/Core (= 1.1.8)
+  - IQKeyboardManagerSwift (4.0.8)
+  - Kingfisher (3.5.0)
+  - KYDrawerController (2.0.1)
+  - ObjectMapper (2.2.5)
+  - Protobuf (3.2.0)
+  - QRCodeReader.swift (7.3.0)
+  - RadioButton (1.0)
+  - SwiftyJSON (3.1.4)
+  - TwitterCore (2.8.0):
+    - Fabric
+  - TwitterKit (2.8.1):
+    - TwitterCore (>= 2.8)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.3)
+  - BEMCheckBox
+  - DatePickerDialog
+  - Device.swift
+  - DZNEmptyDataSet
+  - Fabric
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - Firebase/Auth
+  - Firebase/Core
+  - Firebase/Database
+  - Firebase/DynamicLinks
+  - Firebase/RemoteConfig
+  - Firebase/Storage
+  - GoogleSignIn
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - KYDrawerController
+  - ObjectMapper
+  - QRCodeReader.swift
+  - RadioButton
+  - SwiftyJSON
+  - TwitterKit
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  BEMCheckBox: e18e4a148905b290bd03d98b767651c104f4eda3
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  DatePickerDialog: bd5e7e92e4da2c6a8966b28d5f5d8f335d6c2c63
+  Device.swift: 0fab7a58c7643aafa096f5bac6d4029484ab2ccd
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  Fabric: 5911403591946b8228ab1c51d98f1d7137e863c6
+  FBSDKCoreKit: 894b2b6eda6a4c8c4204e92e59cc355709ef045c
+  FBSDKLoginKit: 83ca4d8f12a2022570af9fd6aacf27f6b425b99f
+  Firebase: 85a581fb04e44f63ae9f4fbc8d6dabf4a4c18653
+  FirebaseAnalytics: 0d1b7d81d5021155be37702a94ba1ec16d45365d
+  FirebaseAuth: cc8a1824170adbd351edb7f994490a3fb5c18be6
+  FirebaseCore: 225d40532489835a034b8f4e2c9c87fbf4f615a2
+  FirebaseDatabase: 05c96d7b43a7368dc91c07791adb49683e1738d1
+  FirebaseDynamicLinks: f0d025dd29a1d70418c003344813b67ab748ffb9
+  FirebaseInstanceID: 2d0518b1378fe9d685ef40cbdd63d2fdc1125339
+  FirebaseRemoteConfig: af3003f4e8daa2bd1d5cf90d3cccc1fe224f8ed9
+  FirebaseStorage: a5c55b23741a49a72af8f30f95b3bb5ddbeda12d
+  GoogleSignIn: d7ad83f13480e1f30453471d00d19b5293ac46af
+  GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
+  GTMOAuth2: 7fc9c10f5c745f4d9850419ea88889fe3baa6b7d
+  GTMSessionFetcher: 6f8d8b28b7e345549ac471071608170b31cb4977
+  IQKeyboardManagerSwift: c04bc9f68473823f825eb44d958fce98d921bead
+  Kingfisher: 7c62087039d93d26c54c8dd9b0b588d2ce55cef6
+  KYDrawerController: b716cfa5730dc2133a67efcfc28b3b5a2cff6101
+  ObjectMapper: fb30f71e08470d1e5a20b199fafe1246281db898
+  Protobuf: 745f59e122e5de98d4d7ef291e264a0eef80f58e
+  QRCodeReader.swift: d7e190d49818948aa030704cfb26283f1f32fb0a
+  RadioButton: 7ef053baf6ff0e7f9e777016c28e9ba4e330edba
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  TwitterCore: e959987be23c767004d29eb7fab8d85d8585a2e5
+  TwitterKit: 3b6044a7320340326a4098f3e37aa1dbaeb94942
+
+PODFILE CHECKSUM: 9674f0839de61fc7ce8b26b44fe6424f40328790
+
+COCOAPODS: 1.2.0

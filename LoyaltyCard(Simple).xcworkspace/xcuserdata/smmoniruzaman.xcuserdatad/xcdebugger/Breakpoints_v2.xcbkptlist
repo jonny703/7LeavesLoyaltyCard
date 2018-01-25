@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LoyaltyCard(Simple)/ReferViewController.swift"
+            timestampString = "509333867.664528"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "epContactPicker(_:didSelectContact:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LoyaltyCard(Simple)/SMContactPicker/EPContactsPicker.swift"
+            timestampString = "509333987.000179"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "EPContactsPicker"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_Leaves_Card.EPContactsPicker.resultSearchController.getter : __ObjC.UISearchController"
+                  moduleName = "7Leaves Card"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/smmoniruzaman/Desktop/Odesk%20work/7Leaves-Card/LoyaltyCard(Simple)/SMContactPicker/EPContactsPicker.swift"
+                  timestampString = "509333987.518507"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_Leaves_Card.EPContactsPicker.resultSearchController.setter : __ObjC.UISearchController"
+                  moduleName = "7Leaves Card"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/smmoniruzaman/Desktop/Odesk%20work/7Leaves-Card/LoyaltyCard(Simple)/SMContactPicker/EPContactsPicker.swift"
+                  timestampString = "509333987.520542"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_Leaves_Card.EPContactsPicker.init (style : __C.UITableViewStyle) -&gt; _Leaves_Card.EPContactsPicker"
+                  moduleName = "7Leaves Card"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/smmoniruzaman/Desktop/Odesk%20work/7Leaves-Card/LoyaltyCard(Simple)/SMContactPicker/EPContactsPicker.swift"
+                  timestampString = "509333987.522937"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "262">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_Leaves_Card.EPContactsPicker.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; _Leaves_Card.EPContactsPicker"
+                  moduleName = "7Leaves Card"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/smmoniruzaman/Desktop/Odesk%20work/7Leaves-Card/LoyaltyCard(Simple)/SMContactPicker/EPContactsPicker.swift"
+                  timestampString = "509333987.525514"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "359">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_Leaves_Card.EPContactsPicker.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;_Leaves_Card.EPContactsPicker&gt;"
+                  moduleName = "7Leaves Card"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/smmoniruzaman/Desktop/Odesk%20work/7Leaves-Card/LoyaltyCard(Simple)/SMContactPicker/EPContactsPicker.swift"
+                  timestampString = "509333987.528128"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "262">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LoyaltyCard(Simple)/SMContactPicker/EPContactsPicker.swift"
+            timestampString = "509333995.402037"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "344"
+            endingLineNumber = "344"
+            landmarkName = "updateSearchResults(for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LoyaltyCard(Simple)/ReferViewController.swift"
+            timestampString = "509335058.449027"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "141"
+            endingLineNumber = "141"
+            landmarkName = "sendText()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LoyaltyCard(Simple)/ReferViewController.swift"
+            timestampString = "509334926.006598"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "onClose(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

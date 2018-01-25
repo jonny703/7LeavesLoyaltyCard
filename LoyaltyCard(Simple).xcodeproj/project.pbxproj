@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		021167051E45897B001AA682 /* DrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021167041E45897B001AA682 /* DrawerViewController.swift */; };
+		021167071E45F157001AA682 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021167061E45F157001AA682 /* ProfileViewController.swift */; };
+		021167091E45F306001AA682 /* ReferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021167081E45F306001AA682 /* ReferViewController.swift */; };
+		0211670B1E45F31F001AA682 /* RedeemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0211670A1E45F31F001AA682 /* RedeemViewController.swift */; };
+		0211670D1E4700F3001AA682 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0211670C1E4700F3001AA682 /* Team.swift */; };
+		021167111E471596001AA682 /* TeamMembersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021167101E471596001AA682 /* TeamMembersTableViewController.swift */; };
+		021167131E472801001AA682 /* EachTeamMemberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021167121E472801001AA682 /* EachTeamMemberTableViewCell.swift */; };
+		0243D0A81E3F996D00DA7456 /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0243D0A71E3F996D00DA7456 /* SigninViewController.swift */; };
+		0243D0AA1E3F997400DA7456 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0243D0A91E3F997400DA7456 /* SignupViewController.swift */; };
+		0243D0AC1E3FA78800DA7456 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0243D0AB1E3FA78800DA7456 /* Helpers.swift */; };
+		0243D0B11E40BB9D00DA7456 /* Geotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0243D0B01E40BB9D00DA7456 /* Geotification.swift */; };
+		0243D0B51E40C5A600DA7456 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0243D0B41E40C5A600DA7456 /* Store.swift */; };
+		0243D0B71E40D2D200DA7456 /* TestLocations.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 0243D0B61E40D2D200DA7456 /* TestLocations.gpx */; };
+		0243D0B91E40DECB00DA7456 /* RCValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0243D0B81E40DECB00DA7456 /* RCValues.swift */; };
+		133ED1121E549731000D2F53 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 133ED1111E549731000D2F53 /* GoogleService-Info.plist */; };
+		1379AB311E38C203001E866C /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1379AB301E38C203001E866C /* Alert.swift */; };
+		1379AB331E38C20B001E866C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1379AB321E38C20B001E866C /* Constants.swift */; };
+		1379AB351E38C216001E866C /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1379AB341E38C216001E866C /* UserDefaultsManager.swift */; };
+		13A07FC51E37B23000C9A05C /* QRCodeReaderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A07FC41E37B23000C9A05C /* QRCodeReaderDelegate.swift */; };
+		13A07FC71E37B23A00C9A05C /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A07FC61E37B23A00C9A05C /* Utils.swift */; };
+		13DE760F1E3C304700B82490 /* VerificationCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DE760E1E3C304700B82490 /* VerificationCode.swift */; };
+		13F1FCEB1E2F208C009927E2 /* QRCodeReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13F1FCEA1E2F208C009927E2 /* QRCodeReader.framework */; };
+		1BE92DFF1CB1C121009284A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE92DFE1CB1C121009284A0 /* AppDelegate.swift */; };
+		1BE92E011CB1C121009284A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE92E001CB1C121009284A0 /* ViewController.swift */; };
+		1BE92E041CB1C121009284A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BE92E021CB1C121009284A0 /* Main.storyboard */; };
+		1BE92E061CB1C121009284A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BE92E051CB1C121009284A0 /* Assets.xcassets */; };
+		1BE92E091CB1C121009284A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BE92E071CB1C121009284A0 /* LaunchScreen.storyboard */; };
+		1DFB0B641E3A3B3600F87026 /* StampButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFB0B631E3A3B3600F87026 /* StampButton.swift */; };
+		1E589BDF1E67E31B0041F6C5 /* FloatLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E589BDD1E67E31B0041F6C5 /* FloatLabelTextField.swift */; };
+		1E589BE01E67E31B0041F6C5 /* FloatLabelTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E589BDE1E67E31B0041F6C5 /* FloatLabelTextView.swift */; };
+		351A316D1E532F5600D93954 /* RemoteConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351A316C1E532F5500D93954 /* RemoteConfig.swift */; };
+		3557BA931E4D441B00D2C631 /* email_invalid.json in Resources */ = {isa = PBXBuildFile; fileRef = 3557BA921E4D441B00D2C631 /* email_invalid.json */; };
+		357B85351E4D745F0064C1EC /* NearestStoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357B85341E4D745F0064C1EC /* NearestStoreViewController.swift */; };
+		357B85371E4D8A080064C1EC /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357B85361E4D8A080064C1EC /* FeedbackViewController.swift */; };
+		62544CAD1E554745008CA6A5 /* UserNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62544CAC1E554745008CA6A5 /* UserNotificationManager.swift */; };
+		74C6D67D328661709E3B3D3F /* Pods_LoyaltyCard_Simple_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22D07EC56A444CF4B7C917DA /* Pods_LoyaltyCard_Simple_.framework */; };
+		79635D761E5AC2E60011725B /* EPConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79635D701E5AC2E60011725B /* EPConstants.swift */; };
+		79635D771E5AC2E60011725B /* EPContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79635D711E5AC2E60011725B /* EPContact.swift */; };
+		79635D781E5AC2E60011725B /* EPContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79635D721E5AC2E60011725B /* EPContactCell.swift */; };
+		79635D791E5AC2E60011725B /* EPContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79635D731E5AC2E60011725B /* EPContactCell.xib */; };
+		79635D7A1E5AC2E60011725B /* EPContactsPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79635D741E5AC2E60011725B /* EPContactsPicker.swift */; };
+		79635D7B1E5AC2E60011725B /* EPExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79635D751E5AC2E60011725B /* EPExtensions.swift */; };
+		A62CCA981E5DA0D5005D88FE /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A62CCA911E5DA0D5005D88FE /* TPKeyboardAvoidingCollectionView.m */; };
+		A62CCA991E5DA0D5005D88FE /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A62CCA931E5DA0D5005D88FE /* TPKeyboardAvoidingScrollView.m */; };
+		A62CCA9A1E5DA0D5005D88FE /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A62CCA951E5DA0D5005D88FE /* TPKeyboardAvoidingTableView.m */; };
+		A62CCA9B1E5DA0D5005D88FE /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A62CCA971E5DA0D5005D88FE /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		D2BB3ABE1E56E6A4006DED63 /* UIButton+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BB3ABD1E56E6A4006DED63 /* UIButton+Animation.swift */; };
+		D2BB3AC01E56E70C006DED63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2BB3ABF1E56E70C006DED63 /* Foundation.framework */; };
+		D2BB3AC21E56E71E006DED63 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2BB3AC11E56E71E006DED63 /* UIKit.framework */; };
+		D2BB3AC41E56EB68006DED63 /* click2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D2BB3AC31E56EB68006DED63 /* click2.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		021167041E45897B001AA682 /* DrawerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerViewController.swift; sourceTree = "<group>"; };
+		021167061E45F157001AA682 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		021167081E45F306001AA682 /* ReferViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferViewController.swift; sourceTree = "<group>"; };
+		0211670A1E45F31F001AA682 /* RedeemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedeemViewController.swift; sourceTree = "<group>"; };
+		0211670C1E4700F3001AA682 /* Team.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		021167101E471596001AA682 /* TeamMembersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamMembersTableViewController.swift; sourceTree = "<group>"; };
+		021167121E472801001AA682 /* EachTeamMemberTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EachTeamMemberTableViewCell.swift; sourceTree = "<group>"; };
+		0243D0A71E3F996D00DA7456 /* SigninViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
+		0243D0A91E3F997400DA7456 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		0243D0AB1E3FA78800DA7456 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		0243D0AD1E40A9E400DA7456 /* 7Leaves Card.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "7Leaves Card.entitlements"; sourceTree = "<group>"; };
+		0243D0B01E40BB9D00DA7456 /* Geotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geotification.swift; sourceTree = "<group>"; };
+		0243D0B41E40C5A600DA7456 /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		0243D0B61E40D2D200DA7456 /* TestLocations.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TestLocations.gpx; sourceTree = "<group>"; };
+		0243D0B81E40DECB00DA7456 /* RCValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCValues.swift; sourceTree = "<group>"; };
+		133ED1111E549731000D2F53 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1379AB301E38C203001E866C /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		1379AB321E38C20B001E866C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1379AB341E38C216001E866C /* UserDefaultsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		13A07FC41E37B23000C9A05C /* QRCodeReaderDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeReaderDelegate.swift; sourceTree = "<group>"; };
+		13A07FC61E37B23A00C9A05C /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		13DE760E1E3C304700B82490 /* VerificationCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerificationCode.swift; sourceTree = "<group>"; };
+		13F1FCEA1E2F208C009927E2 /* QRCodeReader.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QRCodeReader.framework; path = "../../../Library/Developer/Xcode/DerivedData/LoyaltyCard(Simple)-abeqkvuuxnbrkxdcgnpmugbrdlas/Build/Products/Debug-iphonesimulator/QRCodeReader.swift/QRCodeReader.framework"; sourceTree = "<group>"; };
+		1BE92DFB1CB1C121009284A0 /* 7Leaves Card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "7Leaves Card.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BE92DFE1CB1C121009284A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1BE92E001CB1C121009284A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1BE92E031CB1C121009284A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1BE92E051CB1C121009284A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1BE92E081CB1C121009284A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1BE92E0A1CB1C121009284A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DFB0B631E3A3B3600F87026 /* StampButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StampButton.swift; sourceTree = "<group>"; };
+		1E589BDD1E67E31B0041F6C5 /* FloatLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatLabelTextField.swift; sourceTree = "<group>"; };
+		1E589BDE1E67E31B0041F6C5 /* FloatLabelTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatLabelTextView.swift; sourceTree = "<group>"; };
+		22D07EC56A444CF4B7C917DA /* Pods_LoyaltyCard_Simple_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoyaltyCard_Simple_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E50201E1E2D80B8D7BCB426 /* Pods-LoyaltyCard(Simple).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoyaltyCard(Simple).release.xcconfig"; path = "Pods/Target Support Files/Pods-LoyaltyCard(Simple)/Pods-LoyaltyCard(Simple).release.xcconfig"; sourceTree = "<group>"; };
+		351A316C1E532F5500D93954 /* RemoteConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteConfig.swift; sourceTree = "<group>"; };
+		3557BA921E4D441B00D2C631 /* email_invalid.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = email_invalid.json; sourceTree = "<group>"; };
+		357B85341E4D745F0064C1EC /* NearestStoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearestStoreViewController.swift; sourceTree = "<group>"; };
+		357B85361E4D8A080064C1EC /* FeedbackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		4D30BBC3F42C49994CC6E6C9 /* Pods-LoyaltyCard(Simple).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoyaltyCard(Simple).debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoyaltyCard(Simple)/Pods-LoyaltyCard(Simple).debug.xcconfig"; sourceTree = "<group>"; };
+		62544CAC1E554745008CA6A5 /* UserNotificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserNotificationManager.swift; sourceTree = "<group>"; };
+		79635D701E5AC2E60011725B /* EPConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPConstants.swift; sourceTree = "<group>"; };
+		79635D711E5AC2E60011725B /* EPContact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPContact.swift; sourceTree = "<group>"; };
+		79635D721E5AC2E60011725B /* EPContactCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPContactCell.swift; sourceTree = "<group>"; };
+		79635D731E5AC2E60011725B /* EPContactCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EPContactCell.xib; sourceTree = "<group>"; };
+		79635D741E5AC2E60011725B /* EPContactsPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPContactsPicker.swift; sourceTree = "<group>"; };
+		79635D751E5AC2E60011725B /* EPExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPExtensions.swift; sourceTree = "<group>"; };
+		A62CCA901E5DA0D5005D88FE /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		A62CCA911E5DA0D5005D88FE /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		A62CCA921E5DA0D5005D88FE /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		A62CCA931E5DA0D5005D88FE /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		A62CCA941E5DA0D5005D88FE /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		A62CCA951E5DA0D5005D88FE /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		A62CCA961E5DA0D5005D88FE /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		A62CCA971E5DA0D5005D88FE /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		A62CCA9D1E5DA288005D88FE /* LoyaltyCard(Simple)-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LoyaltyCard(Simple)-Bridging-Header.h"; sourceTree = "<group>"; };
+		D2BB3ABD1E56E6A4006DED63 /* UIButton+Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Animation.swift"; sourceTree = "<group>"; };
+		D2BB3ABF1E56E70C006DED63 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2BB3AC11E56E71E006DED63 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D2BB3AC31E56EB68006DED63 /* click2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = click2.mp3; sourceTree = "<group>"; };
+		DC64885A1E62B775007FB8D0 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BE92DF81CB1C121009284A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2BB3AC21E56E71E006DED63 /* UIKit.framework in Frameworks */,
+				D2BB3AC01E56E70C006DED63 /* Foundation.framework in Frameworks */,
+				13F1FCEB1E2F208C009927E2 /* QRCodeReader.framework in Frameworks */,
+				74C6D67D328661709E3B3D3F /* Pods_LoyaltyCard_Simple_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1379AB2D1E38C1A7001E866C /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				1379AB301E38C203001E866C /* Alert.swift */,
+			);
+			name = Alert;
+			sourceTree = "<group>";
+		};
+		1379AB2E1E38C1AD001E866C /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				1379AB321E38C20B001E866C /* Constants.swift */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		1379AB2F1E38C1B4001E866C /* UserDefaultManager */ = {
+			isa = PBXGroup;
+			children = (
+				1379AB341E38C216001E866C /* UserDefaultsManager.swift */,
+				62544CAC1E554745008CA6A5 /* UserNotificationManager.swift */,
+			);
+			name = UserDefaultManager;
+			sourceTree = "<group>";
+		};
+		13A07FC21E37B20E00C9A05C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				13A07FC41E37B23000C9A05C /* QRCodeReaderDelegate.swift */,
+				13DE760E1E3C304700B82490 /* VerificationCode.swift */,
+				0243D0B01E40BB9D00DA7456 /* Geotification.swift */,
+				0243D0B41E40C5A600DA7456 /* Store.swift */,
+				0211670C1E4700F3001AA682 /* Team.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		13A07FC31E37B21400C9A05C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0243D0B61E40D2D200DA7456 /* TestLocations.gpx */,
+				13A07FC61E37B23A00C9A05C /* Utils.swift */,
+				0243D0B81E40DECB00DA7456 /* RCValues.swift */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		1BE92DF21CB1C120009284A0 = {
+			isa = PBXGroup;
+			children = (
+				DC64885A1E62B775007FB8D0 /* Podfile */,
+				1BE92DFD1CB1C121009284A0 /* LoyaltyCard(Simple) */,
+				1BE92DFC1CB1C121009284A0 /* Products */,
+				6A6C837BE852D38382EF027C /* Pods */,
+				281CFC10E0C1BC8C416B9FF3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1BE92DFC1CB1C121009284A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BE92DFB1CB1C121009284A0 /* 7Leaves Card.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BE92DFD1CB1C121009284A0 /* LoyaltyCard(Simple) */ = {
+			isa = PBXGroup;
+			children = (
+				A62CCA8E1E5DA0D5005D88FE /* Libs */,
+				79635D6F1E5AC2E60011725B /* SMContactPicker */,
+				351A316B1E532F4800D93954 /* Config */,
+				0243D0AD1E40A9E400DA7456 /* 7Leaves Card.entitlements */,
+				1DFB0B621E3A3B1C00F87026 /* Views */,
+				1379AB2D1E38C1A7001E866C /* Alert */,
+				1379AB2E1E38C1AD001E866C /* Constants */,
+				1379AB2F1E38C1B4001E866C /* UserDefaultManager */,
+				13A07FC31E37B21400C9A05C /* Common */,
+				13A07FC21E37B20E00C9A05C /* Model */,
+				D2BB3AB61E56E06B006DED63 /* Extensions */,
+				D2BB3AB31E56E04C006DED63 /* Resources */,
+				1BE92DFE1CB1C121009284A0 /* AppDelegate.swift */,
+				1BE92E1F1CB32FE8009284A0 /* Controllers */,
+				1BE92E021CB1C121009284A0 /* Main.storyboard */,
+				1BE92E051CB1C121009284A0 /* Assets.xcassets */,
+				1BE92E071CB1C121009284A0 /* LaunchScreen.storyboard */,
+				133ED1111E549731000D2F53 /* GoogleService-Info.plist */,
+				1BE92E0A1CB1C121009284A0 /* Info.plist */,
+				0243D0AB1E3FA78800DA7456 /* Helpers.swift */,
+				A62CCA9D1E5DA288005D88FE /* LoyaltyCard(Simple)-Bridging-Header.h */,
+			);
+			path = "LoyaltyCard(Simple)";
+			sourceTree = "<group>";
+		};
+		1BE92E1F1CB32FE8009284A0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1BE92E001CB1C121009284A0 /* ViewController.swift */,
+				0243D0A71E3F996D00DA7456 /* SigninViewController.swift */,
+				0243D0A91E3F997400DA7456 /* SignupViewController.swift */,
+				021167041E45897B001AA682 /* DrawerViewController.swift */,
+				021167061E45F157001AA682 /* ProfileViewController.swift */,
+				021167081E45F306001AA682 /* ReferViewController.swift */,
+				0211670A1E45F31F001AA682 /* RedeemViewController.swift */,
+				021167101E471596001AA682 /* TeamMembersTableViewController.swift */,
+				021167121E472801001AA682 /* EachTeamMemberTableViewCell.swift */,
+				357B85341E4D745F0064C1EC /* NearestStoreViewController.swift */,
+				357B85361E4D8A080064C1EC /* FeedbackViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		1DFB0B621E3A3B1C00F87026 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1E589BDD1E67E31B0041F6C5 /* FloatLabelTextField.swift */,
+				1E589BDE1E67E31B0041F6C5 /* FloatLabelTextView.swift */,
+				1DFB0B631E3A3B3600F87026 /* StampButton.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		281CFC10E0C1BC8C416B9FF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2BB3AC11E56E71E006DED63 /* UIKit.framework */,
+				D2BB3ABF1E56E70C006DED63 /* Foundation.framework */,
+				13F1FCEA1E2F208C009927E2 /* QRCodeReader.framework */,
+				22D07EC56A444CF4B7C917DA /* Pods_LoyaltyCard_Simple_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		351A316B1E532F4800D93954 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				351A316C1E532F5500D93954 /* RemoteConfig.swift */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		6A6C837BE852D38382EF027C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D30BBC3F42C49994CC6E6C9 /* Pods-LoyaltyCard(Simple).debug.xcconfig */,
+				2E50201E1E2D80B8D7BCB426 /* Pods-LoyaltyCard(Simple).release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		79635D6F1E5AC2E60011725B /* SMContactPicker */ = {
+			isa = PBXGroup;
+			children = (
+				79635D701E5AC2E60011725B /* EPConstants.swift */,
+				79635D711E5AC2E60011725B /* EPContact.swift */,
+				79635D721E5AC2E60011725B /* EPContactCell.swift */,
+				79635D731E5AC2E60011725B /* EPContactCell.xib */,
+				79635D741E5AC2E60011725B /* EPContactsPicker.swift */,
+				79635D751E5AC2E60011725B /* EPExtensions.swift */,
+			);
+			path = SMContactPicker;
+			sourceTree = "<group>";
+		};
+		A62CCA8E1E5DA0D5005D88FE /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				A62CCA8F1E5DA0D5005D88FE /* TPKeyboardAvoiding */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		A62CCA8F1E5DA0D5005D88FE /* TPKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				A62CCA901E5DA0D5005D88FE /* TPKeyboardAvoidingCollectionView.h */,
+				A62CCA911E5DA0D5005D88FE /* TPKeyboardAvoidingCollectionView.m */,
+				A62CCA921E5DA0D5005D88FE /* TPKeyboardAvoidingScrollView.h */,
+				A62CCA931E5DA0D5005D88FE /* TPKeyboardAvoidingScrollView.m */,
+				A62CCA941E5DA0D5005D88FE /* TPKeyboardAvoidingTableView.h */,
+				A62CCA951E5DA0D5005D88FE /* TPKeyboardAvoidingTableView.m */,
+				A62CCA961E5DA0D5005D88FE /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				A62CCA971E5DA0D5005D88FE /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+			);
+			path = TPKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+		D2BB3AB31E56E04C006DED63 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3557BA921E4D441B00D2C631 /* email_invalid.json */,
+				D2BB3AC31E56EB68006DED63 /* click2.mp3 */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D2BB3AB61E56E06B006DED63 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D2BB3ABD1E56E6A4006DED63 /* UIButton+Animation.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BE92DFA1CB1C121009284A0 /* LoyaltyCard(Simple) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BE92E0D1CB1C121009284A0 /* Build configuration list for PBXNativeTarget "LoyaltyCard(Simple)" */;
+			buildPhases = (
+				A76985539C9B18AB7A9306DA /* [CP] Check Pods Manifest.lock */,
+				1BE92DF71CB1C121009284A0 /* Sources */,
+				1BE92DF81CB1C121009284A0 /* Frameworks */,
+				1BE92DF91CB1C121009284A0 /* Resources */,
+				2E3F66A611AED582C4D444C0 /* [CP] Embed Pods Frameworks */,
+				24681F3B41B7054003B5D961 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LoyaltyCard(Simple)";
+			productName = "LoyaltyCard(Simple)";
+			productReference = 1BE92DFB1CB1C121009284A0 /* 7Leaves Card.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BE92DF31CB1C120009284A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "";
+				TargetAttributes = {
+					1BE92DFA1CB1C121009284A0 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = DZK8EVM94K;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 1BE92DF61CB1C120009284A0 /* Build configuration list for PBXProject "LoyaltyCard(Simple)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1BE92DF21CB1C120009284A0;
+			productRefGroup = 1BE92DFC1CB1C121009284A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BE92DFA1CB1C121009284A0 /* LoyaltyCard(Simple) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BE92DF91CB1C121009284A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BE92E091CB1C121009284A0 /* LaunchScreen.storyboard in Resources */,
+				1BE92E061CB1C121009284A0 /* Assets.xcassets in Resources */,
+				1BE92E041CB1C121009284A0 /* Main.storyboard in Resources */,
+				79635D791E5AC2E60011725B /* EPContactCell.xib in Resources */,
+				0243D0B71E40D2D200DA7456 /* TestLocations.gpx in Resources */,
+				3557BA931E4D441B00D2C631 /* email_invalid.json in Resources */,
+				D2BB3AC41E56EB68006DED63 /* click2.mp3 in Resources */,
+				133ED1121E549731000D2F53 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24681F3B41B7054003B5D961 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoyaltyCard(Simple)/Pods-LoyaltyCard(Simple)-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E3F66A611AED582C4D444C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoyaltyCard(Simple)/Pods-LoyaltyCard(Simple)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A76985539C9B18AB7A9306DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BE92DF71CB1C121009284A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1379AB311E38C203001E866C /* Alert.swift in Sources */,
+				1E589BE01E67E31B0041F6C5 /* FloatLabelTextView.swift in Sources */,
+				13DE760F1E3C304700B82490 /* VerificationCode.swift in Sources */,
+				0243D0A81E3F996D00DA7456 /* SigninViewController.swift in Sources */,
+				62544CAD1E554745008CA6A5 /* UserNotificationManager.swift in Sources */,
+				A62CCA981E5DA0D5005D88FE /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				357B85371E4D8A080064C1EC /* FeedbackViewController.swift in Sources */,
+				0243D0B11E40BB9D00DA7456 /* Geotification.swift in Sources */,
+				79635D7A1E5AC2E60011725B /* EPContactsPicker.swift in Sources */,
+				79635D771E5AC2E60011725B /* EPContact.swift in Sources */,
+				13A07FC71E37B23A00C9A05C /* Utils.swift in Sources */,
+				0243D0B51E40C5A600DA7456 /* Store.swift in Sources */,
+				021167071E45F157001AA682 /* ProfileViewController.swift in Sources */,
+				1BE92E011CB1C121009284A0 /* ViewController.swift in Sources */,
+				A62CCA9B1E5DA0D5005D88FE /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				A62CCA991E5DA0D5005D88FE /* TPKeyboardAvoidingScrollView.m in Sources */,
+				13A07FC51E37B23000C9A05C /* QRCodeReaderDelegate.swift in Sources */,
+				0211670D1E4700F3001AA682 /* Team.swift in Sources */,
+				A62CCA9A1E5DA0D5005D88FE /* TPKeyboardAvoidingTableView.m in Sources */,
+				79635D781E5AC2E60011725B /* EPContactCell.swift in Sources */,
+				357B85351E4D745F0064C1EC /* NearestStoreViewController.swift in Sources */,
+				0243D0AA1E3F997400DA7456 /* SignupViewController.swift in Sources */,
+				021167131E472801001AA682 /* EachTeamMemberTableViewCell.swift in Sources */,
+				79635D7B1E5AC2E60011725B /* EPExtensions.swift in Sources */,
+				1E589BDF1E67E31B0041F6C5 /* FloatLabelTextField.swift in Sources */,
+				0211670B1E45F31F001AA682 /* RedeemViewController.swift in Sources */,
+				351A316D1E532F5600D93954 /* RemoteConfig.swift in Sources */,
+				021167111E471596001AA682 /* TeamMembersTableViewController.swift in Sources */,
+				1379AB331E38C20B001E866C /* Constants.swift in Sources */,
+				1DFB0B641E3A3B3600F87026 /* StampButton.swift in Sources */,
+				D2BB3ABE1E56E6A4006DED63 /* UIButton+Animation.swift in Sources */,
+				0243D0AC1E3FA78800DA7456 /* Helpers.swift in Sources */,
+				79635D761E5AC2E60011725B /* EPConstants.swift in Sources */,
+				021167091E45F306001AA682 /* ReferViewController.swift in Sources */,
+				021167051E45897B001AA682 /* DrawerViewController.swift in Sources */,
+				1379AB351E38C216001E866C /* UserDefaultsManager.swift in Sources */,
+				0243D0B91E40DECB00DA7456 /* RCValues.swift in Sources */,
+				1BE92DFF1CB1C121009284A0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1BE92E021CB1C121009284A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BE92E031CB1C121009284A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1BE92E071CB1C121009284A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BE92E081CB1C121009284A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1BE92E0B1CB1C121009284A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1BE92E0C1CB1C121009284A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1BE92E0E1CB1C121009284A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D30BBC3F42C49994CC6E6C9 /* Pods-LoyaltyCard(Simple).debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "LoyaltyCard(Simple)/7Leaves Card.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jason McCoy (73PV4T6B9Y)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = DZK8EVM94K;
+				INFOPLIST_FILE = "LoyaltyCard(Simple)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JasonMcCoy.7LeavesCard;
+				PRODUCT_NAME = "7Leaves Card";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "LoyaltyCard(Simple)/LoyaltyCard(Simple)-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1BE92E0F1CB1C121009284A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E50201E1E2D80B8D7BCB426 /* Pods-LoyaltyCard(Simple).release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "LoyaltyCard(Simple)/7Leaves Card.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Jason McCoy (DZK8EVM94K)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = DZK8EVM94K;
+				INFOPLIST_FILE = "LoyaltyCard(Simple)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JasonMcCoy.7LeavesCard;
+				PRODUCT_NAME = "7Leaves Card";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "LoyaltyCard(Simple)/LoyaltyCard(Simple)-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BE92DF61CB1C120009284A0 /* Build configuration list for PBXProject "LoyaltyCard(Simple)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BE92E0B1CB1C121009284A0 /* Debug */,
+				1BE92E0C1CB1C121009284A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BE92E0D1CB1C121009284A0 /* Build configuration list for PBXNativeTarget "LoyaltyCard(Simple)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BE92E0E1CB1C121009284A0 /* Debug */,
+				1BE92E0F1CB1C121009284A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1BE92DF31CB1C120009284A0 /* Project object */;
+}

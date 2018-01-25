@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>774307085086-hcd627qg0emmh7bhbcn58e3a23bvl81a.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.774307085086-hcd627qg0emmh7bhbcn58e3a23bvl81a</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>774307085086-mcbslt0dshqasoiprlaiotfqnn4jrd7i.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDXWUC3DS-Lldw2-0Dp8pBWnWR1blLvJMs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>774307085086</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.JasonMcCoy.7LeavesCard</string>
+	<key>PROJECT_ID</key>
+	<string>leaves-cafe</string>
+	<key>STORAGE_BUCKET</key>
+	<string>leaves-cafe.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:774307085086:ios:9b8ead94b26e60e9</string>
+	<key>DATABASE_URL</key>
+	<string>https://leaves-cafe.firebaseio.com</string>
+</dict>
+</plist>
